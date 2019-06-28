@@ -34,9 +34,10 @@ with open(csvpath, newline="") as csvfile:
         #option 2: creating a list from the candidates list
         if candidate not in candidate_list:
             #updating the candidates list
-            candidate_list.append(candidate)
+            candidate_list.append(candidate) 
             vote_list.append(1)
         #for c in candidates:
+        #
         #     vote_count.append(vote)
         #     if candidate == c:
         #         vote = vote + 1 #in vote_count
